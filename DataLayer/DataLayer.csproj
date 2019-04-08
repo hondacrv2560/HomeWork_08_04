@@ -52,6 +52,8 @@
     <Compile Include="DataModel\User.cs" />
     <Compile Include="DataModel\UserInRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserContext.cs" />
+    <Compile Include="UserInit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
