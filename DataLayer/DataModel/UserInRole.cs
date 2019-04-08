@@ -16,6 +16,6 @@ namespace DataLayer.DataModel
         public int UserId { get; set; }
         public int RoleId { get; set; }
         public DateTime HireDate { get; set; }
-
+        public virtual User Users { get; set; }
     }
 }

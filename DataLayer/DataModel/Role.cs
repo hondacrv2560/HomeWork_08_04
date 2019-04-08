@@ -14,14 +14,14 @@ namespace DataLayer.DataModel
         [Key]
         [Column("RoleId")]
         public int RoleId { get; set; }
-        [ForeignKey("RoleId")]
+        //[ForeignKey("RoleId")]
         [Required]
         [MaxLength(50)]
         [Column("RoleName")]
         public string RoleName { get; set; }
         [Column("Description")]
         public string Description { get; set; }
-
+        public virtual User Users { get; set; }
         public virtual List<UserInRole> UserInRoles { get; set; }
 
         public Role()

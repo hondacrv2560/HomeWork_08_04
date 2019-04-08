@@ -14,7 +14,7 @@ namespace DataLayer.DataModel
         [Key]
         [Column("UserId")]
         public int UserId { get; set; }
-        [ForeignKey("UserId")]
+        //[ForeignKey("UserId")]
         [Required]
         [MaxLength(50)]
         [Column("Email")]
